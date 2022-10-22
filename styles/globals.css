@@ -1,10 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-image: linear-gradient(to right, #f3f4f6, #f4faff, #f3f4f6);
 }
+.customButton button {
+  background-color: #3aaade;
+  color: aliceblue;
+}
+/* button {
+  background-color: #3aaade;
+} */
 
 a {
   color: inherit;
